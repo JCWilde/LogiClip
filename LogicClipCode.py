@@ -5,7 +5,9 @@ icon_path = os.path.abspath("icons8-null-symbol-96.ico")
 
 texts = [    ["AND | ∧", "OR | ∨", "NOT | ¬"],
     ["XOR | ⊕", "IMPLIES | ⇒", "IF AND ONLY IF | ⇔"],
-    ["THERE EXISTS | ∃", "FOR ALL | ∀", "NULL | ⊥"]
+    ["MEMBER | ∈", "SUBSET | ⊆", "NOT A SUBSET | ⊄"],
+    ["THERE EXISTS | ∃", "FOR ALL | ∀", "ARROW | →"],
+    ["","NULL | ⊥",""]
 ]
 
 INFO = """
@@ -50,7 +52,7 @@ class TextGrid(tk.Frame):
 
     def create_widgets(self):
         max_width = max(len(text) for row in self.texts for text in row) + 1
-        max_height = 5  # set the max height for the temp text area
+        max_height = 7  # set the max height for the temp text area
         self.maxwidth = max_width * 3  # update the max width of the temp text area
         self.maxheight = max_height
 
