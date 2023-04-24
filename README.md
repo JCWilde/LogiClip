@@ -31,9 +31,9 @@ Here are some basic identities of Boolean algebra:
 
 * Identity laws: a ∨ 0 = a, a ∧ 1 = a
 * Complement laws: a ∨ ¬a = 1, a ∧ ¬a = 0
-* Commutative laws: a ∨ b = b OR a, a ∧ b = b ∧ a
-* Associative laws: a ∨ (b ∨ c) = (a ∨ b) OR c, a ∧ (b ∧ c) = (a ∧ b) ∧ c
-* Distributive laws: a ∧ (b ∨ c) = (a ∧ b) OR (a ∧ c), a OR (b ∧ c) = (a ∨ b) ∧ (a ∨ c)
+* Commutative laws: a ∨ b = b ∨ a, a ∧ b = b ∧ a
+* Associative laws: a ∨ (b ∨ c) = (a ∨ b) ∨ c, a ∧ (b ∧ c) = (a ∧ b) ∧ c
+* Distributive laws: a ∧ (b ∨ c) = (a ∧ b) ∨ (a ∧ c), a ∨ (b ∧ c) = (a ∨ b) ∧ (a ∨ c)
 * De Morgan's laws: ¬(a ∧ b) = ¬a ∨ ¬b, ¬(a ∨ b) = ¬a ∧ ¬b
 
 ## Contact
